@@ -1,0 +1,22 @@
+{
+  "name": "VVNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of VVNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/VVNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "setipro": "setipro@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/VVNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VVNetwork/Classes/**/*"
+}

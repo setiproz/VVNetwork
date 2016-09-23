@@ -1,0 +1,6 @@
+framework module VVNetwork {
+  umbrella header "VVNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
