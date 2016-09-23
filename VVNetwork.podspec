@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VVNetwork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VVNetwork.'
+  s.summary          = 'A fast http file downloader'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+VVNetwork can accelerate the downloading speed by fetch small file block spliting from target large file in multi-thread way.
                        DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/VVNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'setipro' => 'setipro@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/VVNetwork.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/setpiproz/VVNetwork.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
