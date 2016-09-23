@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 VVNetwork can accelerate the downloading speed by fetch small file block spliting from target large file in multi-thread way.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/VVNetwork'
+  s.homepage         = 'https://github.com/setiproz/VVNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'setipro' => 'setipro@163.com' }
